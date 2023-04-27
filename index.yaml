@@ -11,4 +11,15 @@ entries:
     urls:
     - https://github.com/pendoragon/charts/releases/download/katalyst-0.1.0/katalyst-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-27T02:55:39.049597172Z"
+  malachite:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-04-27T02:56:44.382964869Z"
+    description: A Helm chart for Malachite
+    digest: 5999c7bd31688fc4a0ca157df9c4c09af0cd33dbd05053591445c542de57c8f7
+    name: malachite
+    type: application
+    urls:
+    - https://github.com/pendoragon/charts/releases/download/malachite-0.1.0/malachite-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-04-27T02:56:44.382970269Z"
