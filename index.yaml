@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  katalyst:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-04-27T02:55:39.049588472Z"
+    description: A Helm chart for Katalyst
+    digest: fb978ec51b20b15f52a03b710e20126f175593f161fd7c4a96a61b6fa8d00aae
+    name: katalyst
+    type: application
+    urls:
+    - https://github.com/pendoragon/charts/releases/download/katalyst-0.1.0/katalyst-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-04-27T02:55:39.049597172Z"
