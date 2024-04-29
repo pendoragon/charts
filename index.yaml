@@ -13,6 +13,16 @@ entries:
     version: 0.1.0
   katalyst-agent:
   - apiVersion: v2
+    appVersion: v0.5.0
+    created: "2024-04-29T04:26:48.775038129Z"
+    description: A Helm chart for Katalyst-agent
+    digest: 58dce0ffac029d7d15d171e3be7cc8f9cc33fbc28be983ff26075b8b1b5ef29b
+    name: katalyst-agent
+    type: application
+    urls:
+    - https://github.com/pendoragon/charts/releases/download/katalyst-agent-0.5.0/katalyst-agent-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
     appVersion: v0.4.0
     created: "2024-01-16T10:13:33.585524319Z"
     description: A Helm chart for Katalyst-agent
@@ -51,6 +61,16 @@ entries:
     version: 0.4.0
   katalyst-controller:
   - apiVersion: v2
+    appVersion: v0.5.0
+    created: "2024-04-29T04:26:49.076422969Z"
+    description: A Helm chart for Katalyst-controller
+    digest: 76f083b29981c6869699e0f45c7851818234c164f25291dedb58f687173a6204
+    name: katalyst-controller
+    type: application
+    urls:
+    - https://github.com/pendoragon/charts/releases/download/katalyst-controller-0.5.0/katalyst-controller-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
     appVersion: v0.4.0
     created: "2024-01-16T10:13:33.837538932Z"
     description: A Helm chart for Katalyst-controller
@@ -61,6 +81,16 @@ entries:
     - https://github.com/pendoragon/charts/releases/download/katalyst-controller-0.4.0/katalyst-controller-0.4.0.tgz
     version: 0.4.0
   katalyst-metric:
+  - apiVersion: v2
+    appVersion: v0.5.0
+    created: "2024-04-29T04:26:49.229995924Z"
+    description: A Helm chart for Katalyst-metric
+    digest: d7fa801ef30b1f2a9decdad10fb0f95d7df2cddaeeb1acc8e14e4a7f6902c5ae
+    name: katalyst-metric
+    type: application
+    urls:
+    - https://github.com/pendoragon/charts/releases/download/katalyst-metric-0.5.0/katalyst-metric-0.5.0.tgz
+    version: 0.5.0
   - apiVersion: v2
     appVersion: v0.4.0
     created: "2024-01-16T10:13:33.973268992Z"
@@ -91,6 +121,16 @@ entries:
     version: 0.4.0
   katalyst-scheduler:
   - apiVersion: v2
+    appVersion: v0.5.0
+    created: "2024-04-29T04:26:49.535906173Z"
+    description: A Helm chart for Katalyst-scheduler
+    digest: 011265f474cc0ebb1f3448242866555d0c31c06d5e648fe68940674be1bc6c71
+    name: katalyst-scheduler
+    type: application
+    urls:
+    - https://github.com/pendoragon/charts/releases/download/katalyst-scheduler-0.5.0/katalyst-scheduler-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
     appVersion: v0.4.0
     created: "2024-01-16T10:13:34.247360283Z"
     description: A Helm chart for Katalyst-scheduler
@@ -117,6 +157,16 @@ entries:
     version: 0.4.0
   katalyst-webhook:
   - apiVersion: v2
+    appVersion: v0.5.0
+    created: "2024-04-29T04:26:49.827264682Z"
+    description: A Helm chart for Katalyst-webhook
+    digest: 8359e4e7f8f9e7476ca7f3234e9f42b1e35fde78918b5c1beb8825243d146be3
+    name: katalyst-webhook
+    type: application
+    urls:
+    - https://github.com/pendoragon/charts/releases/download/katalyst-webhook-0.5.0/katalyst-webhook-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
     appVersion: v0.4.0
     created: "2024-01-16T10:13:34.495588091Z"
     description: A Helm chart for Katalyst-webhook
@@ -137,4 +187,4 @@ entries:
     urls:
     - https://github.com/pendoragon/charts/releases/download/malachite-0.1.0/malachite-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-16T10:13:34.495616976Z"
+generated: "2024-04-29T04:26:49.827314055Z"
