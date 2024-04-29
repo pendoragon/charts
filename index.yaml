@@ -34,6 +34,32 @@ entries:
     version: 0.4.0
   katalyst-colocation:
   - apiVersion: v2
+    appVersion: v0.5.0
+    created: "2024-04-29T10:18:59.890195353Z"
+    dependencies:
+    - name: katalyst-webhook
+      repository: file://../webhook
+      version: 0.5.0
+    - name: katalyst-controller
+      repository: file://../controller
+      version: 0.5.0
+    - name: katalyst-metric
+      repository: file://../metric
+      version: 0.5.0
+    - name: katalyst-scheduler
+      repository: file://../scheduler
+      version: 0.5.0
+    - name: katalyst-agent
+      repository: file://../agent
+      version: 0.5.0
+    description: A Helm chart for Katalyst colocation
+    digest: a3ce79d1c3cb35fce81d7b2269ebf48d62c038182dcad3f13b0c168bf0ca330f
+    name: katalyst-colocation
+    type: application
+    urls:
+    - https://github.com/pendoragon/charts/releases/download/katalyst-colocation-0.5.0/katalyst-colocation-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
     appVersion: v0.4.0
     created: "2024-01-16T10:13:33.707285705Z"
     dependencies:
@@ -103,6 +129,29 @@ entries:
     version: 0.4.0
   katalyst-overcommit:
   - apiVersion: v2
+    appVersion: v0.5.0
+    created: "2024-04-29T10:19:00.209743313Z"
+    dependencies:
+    - name: katalyst-webhook
+      repository: file://../webhook
+      version: 0.5.0
+    - name: katalyst-controller
+      repository: file://../controller
+      version: 0.5.0
+    - name: katalyst-agent
+      repository: file://../agent
+      version: 0.5.0
+    - name: katalyst-scheduler
+      repository: file://../scheduler
+      version: 0.5.0
+    description: A Helm chart for Katalyst overcommit
+    digest: 62be464f3dfb981826cfabf18f934786c7e96a0f823efff1b1e781090754326b
+    name: katalyst-overcommit
+    type: application
+    urls:
+    - https://github.com/pendoragon/charts/releases/download/katalyst-overcommit-0.5.0/katalyst-overcommit-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
     appVersion: v0.4.0
     created: "2024-01-16T10:13:34.106582047Z"
     dependencies:
@@ -141,6 +190,20 @@ entries:
     - https://github.com/pendoragon/charts/releases/download/katalyst-scheduler-0.4.0/katalyst-scheduler-0.4.0.tgz
     version: 0.4.0
   katalyst-tidal-colocation:
+  - apiVersion: v2
+    appVersion: v0.5.0
+    created: "2024-04-29T10:19:00.43270378Z"
+    dependencies:
+    - name: katalyst-controller
+      repository: file://../controller
+      version: 0.5.0
+    description: A Helm chart for Katalyst tidal colocation
+    digest: 6e652f55d9197317619a81bca959b7e810349b01f7e74206b62765db051e2bae
+    name: katalyst-tidal-colocation
+    type: application
+    urls:
+    - https://github.com/pendoragon/charts/releases/download/katalyst-tidal-colocation-0.5.0/katalyst-tidal-colocation-0.5.0.tgz
+    version: 0.5.0
   - apiVersion: v2
     appVersion: v0.4.0
     created: "2024-01-16T10:13:34.369349813Z"
@@ -187,4 +250,4 @@ entries:
     urls:
     - https://github.com/pendoragon/charts/releases/download/malachite-0.1.0/malachite-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-29T04:26:49.827314055Z"
+generated: "2024-04-29T10:19:00.520668167Z"
